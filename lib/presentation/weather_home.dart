@@ -8,12 +8,19 @@ class WeatherHomePage extends StatefulWidget {
 }
 
 class _WeatherHomePageState extends State<WeatherHomePage> {
+  @override
+  void initState() {
+    super.initState();
+    //initialize weather model(?) here
+  }
+
   final Shader linearGradient = LinearGradient(
     colors: <Color>[Color(0xffD8DEE9), Color(0xff88C0D0)],
   ).createShader(Rect.fromLTWH(0.0, 0.0, 200.0, 70.0));
   final Shader linearGradient2 = LinearGradient(
     colors: <Color>[Color(0xffD8DEE9), Color(0xffEBCB8B)],
   ).createShader(Rect.fromLTWH(0.0, 0.0, 200.0, 70.0));
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
