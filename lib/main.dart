@@ -12,7 +12,7 @@ Future main() async {
       statusBarColor: Color(0xff2E3440),
     ),
   );
-  runApp(MyApp());
+  runApp(ProviderScope(child: MyApp()));
 }
 
 class MyApp extends StatelessWidget {
