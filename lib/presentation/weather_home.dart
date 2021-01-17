@@ -1,11 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter_riverpod/all.dart';
-import 'package:weatherly/infrastructure/weather_repository.dart';
+import '../providers.dart';
 import 'get_icon.dart';
-
-final weatherDataFutureProvider =
-    FutureProvider<List<String>>((ref) => getWeatherData());
 
 class WeatherHomePage extends ConsumerWidget {
   final Shader linearGradient = LinearGradient(
