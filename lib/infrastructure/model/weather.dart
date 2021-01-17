@@ -2,15 +2,8 @@ import 'location.dart';
 import 'networking.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
-//this class gets the weather info.
-
 class Weather {
   List<String> weatherList = [];
-
-  // Weather(
-  //     {@required this.cityName,
-  //     @required this.tempFarenheit,
-  //     @required this.description});
 
   Future<List<String>> getLocationData() async {
     Location location = Location();
