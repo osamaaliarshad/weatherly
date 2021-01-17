@@ -1,16 +1,9 @@
 # weatherly
 
-A new Flutter project.
+A weather app built on the Flutter framework using Riverpod.
 
-## Getting Started
+## About the App
 
-This project is a starting point for a Flutter application.
+This project is a simple weather app that calls on the openweathermap API and uses riverpod to pass the weather state onto the UI. Utilizes a pull to refresh feature that lets you update the state.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Image of app](https://i.imgur.com/TYn84yA.jpg)
